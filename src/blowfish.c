@@ -1,6 +1,9 @@
 /*
  * Blowfish implementation just to understand what a strong crypto looks like, get a refresher on C
  * P and S are arbitrary, with random primes they'll provide more entropy to crypto
+ * https://www.design-reuse.com/articles/5922/encrypting-data-with-the-blowfish-algorithm.html
+ * Original paper: https://www.schneier.com/academic/archives/1994/09/description_of_a_new.html
+ *
  */
 #include <stdio.h>
 
